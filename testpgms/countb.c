@@ -17,6 +17,7 @@ int main(int argc, char *argv[])
 
     while((ch = getc(fp)) != EOF) {
         putc(ch, stdout);
+        // putchar(ch); // the same result.
         count++;
     }
     fclose(fp);
