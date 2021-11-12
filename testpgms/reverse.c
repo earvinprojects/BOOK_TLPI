@@ -28,6 +28,10 @@ int main(void)
         if (ch != CNTL_Z && ch != '\r') /* MS-DOS files */
             putchar(ch);
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 9dd27d3d2612e6b6f9a333898141d2bbe4ae638c
     putchar('\n');
     fclose(fp);
     
