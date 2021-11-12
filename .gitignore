@@ -53,3 +53,7 @@ dkms.conf
 
 # Backup files
 *.bak
+
+# Temp files
+*.swp
+
