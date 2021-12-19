@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     FILE *fp;
     unsigned long count = 0;
 
-    if ((fp = fopen(argv[1], "rt")) == NULL) {
+    if ((fp = fopen(argv[1], "rb")) == NULL) {
         printf("Can't open %s\n", argv[1]);
         exit(EXIT_FAILURE);
     }
